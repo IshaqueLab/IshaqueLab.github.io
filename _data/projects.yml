@@ -4,5 +4,5 @@
   summary: Linking molecular layers to resolve tumour and microenvironment heterogeneity, with a current focus on bladder cancer and the tumour immune microenvironment.
 - name: AI for histology
   summary: Predicting molecular readouts and immune states from routine H&E images using matched spatial transcriptomics as ground truth.
-- name: Community benchmarking and standards
-  summary: Open benchmarking through openproblems.bio, the SpaceHack hackathon series and FAIR data standards for spatial 'omics.
+- name: Community building and engagement
+  summary: We are actively involved in ELIXIR, ELIXIR-Germany and coordinate the SpaceHack hackathon series
