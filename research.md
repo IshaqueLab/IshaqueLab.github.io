@@ -31,6 +31,20 @@ All tools are open source and available on <a href="{{ site.github_org }}">GitHu
   </tbody>
 </table>
 
+<table>
+  <thead><tr><th>Tool</th><th>What it does</th><th>Code</th><th>Publication</th></tr></thead>
+  <tbody>
+  {% for s in site.data.software %}
+    <tr>
+      <td>{{ s.name }}</td>
+      <td>{{ s.summary }}</td>
+      <td>{% if s.repo != "" %}<a href="{{ s.repo }}">GitHub</a>{% endif %}</td>
+      <td>{% if s.doi != "" %}<a href="https://doi.org/{{ s.doi }}">{{ s.citation }}</a>{% endif %}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
 ## Community
 
 We contribute to open benchmarking through <a href="https://openproblems.bio">openproblems.bio</a> and organise the SpaceHack hackathon series on spatial 'omics analysis.
