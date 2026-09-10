@@ -16,7 +16,7 @@ We develop computational methods to understand biological heterogeneity in disea
 
 ## Software
 
-These software are an approved de.NBI service (the [SpatialTanscriptomicsToolbox](https://www.surveymonkey.de/r/denbi-service?sc=hd-hub&tool=spatialtranscriptomicstoolbox)). [Please help us improve by taking our short user survey](https://www.surveymonkey.de/r/denbi-service?sc=hd-hub&tool=spatialtranscriptomicstoolbox).
+These software are an approved de.NBI service (the [SpatialTranscriptomicsToolbox](https://www.surveymonkey.de/r/denbi-service?sc=hd-hub&tool=spatialtranscriptomicstoolbox)). [Please help us improve by taking our short user survey](https://www.surveymonkey.de/r/denbi-service?sc=hd-hub&tool=spatialtranscriptomicstoolbox).
 
 <table>
   <thead><tr><th>Tool</th><th>What it does</th><th>Code</th><th>Publication</th></tr></thead>
@@ -32,7 +32,7 @@ These software are an approved de.NBI service (the [SpatialTanscriptomicsToolbox
   </tbody>
 </table>
 
-These software are an approved de.NBI service (the [SpatialTanscriptomicsToolbox](https://www.surveymonkey.de/r/denbi-service?sc=hd-hub&tool=spatialtranscriptomicstoolbox)). [Please help us improve by taking our short user survey](https://www.surveymonkey.de/r/denbi-service?sc=hd-hub&tool=spatialtranscriptomicstoolbox).
+These software are an approved de.NBI service (the [SpatialTranscriptomicsToolbox](https://www.surveymonkey.de/r/denbi-service?sc=hd-hub&tool=spatialtranscriptomicstoolbox)). [Please help us improve by taking our short user survey](https://www.surveymonkey.de/r/denbi-service?sc=hd-hub&tool=spatialtranscriptomicstoolbox).
 
 ## Community
 
