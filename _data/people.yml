@@ -10,36 +10,46 @@
       scholar: XW9GmMoAAAAJ
       email: naveed.ishaque@bih-charite.de
       photo: /assets/img/people/naveed.jpg
-
+      
 - group: Postdoctoral researchers
   members:
     - name: George Gavriilidis
       github: geogav
+      scholar: oAUPMa8AAAAJ
+      email: georgios.gavriilidis@charite.de
       photo: /assets/img/people/george.jpg
 
 - group: Doctoral researchers
   members:
     - name: Alexander Malt
       github: al3xmlt030
+      email: alexander.malt@bih-charite.de
       photo: /assets/img/people/alex.jpg
     - name: Yiheng Jiang
       github: YihengJiang97
-      photo: /assets/img/people/yiheng.jpg
+      email:  yiheng.jiang@bih-charite.de
+      photo: /assets/img/people/yiheng.png
     - name: Kaixin Huang
+      email: kaixin.huang@bih-charite.de
       photo: /assets/img/people/kaixin.jpg
     - name: Yizhen Xiang
+      email: yizhen.xiang@bih-charite.de
       github: Erlang9783
       photo: /assets/img/people/yizhen.jpg
     - name: Fei Wang
+      email: fei.wang@bih-charite.de
       github: Dan-Danny-Danniel
       photo: /assets/img/people/fei.jpg
     - name: Peiru Du
+      email: peiru.du@bih-charite.de
       github: dpr1212
       photo: /assets/img/people/peiru.jpg
     - name: Haoxin Wang
+      email: haoxin.wang@bih-charite.de
       github: whxgz121
       photo: /assets/img/people/haoxin.jpg
     - name: Jianpeng Zhang
+      email:  jianpeng.zhang@bih-charite.de
       github: LuckyRaphael
       photo: /assets/img/people/jianpeng.jpg
 
