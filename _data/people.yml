@@ -13,15 +13,15 @@
 
 - group: Postdoctoral researchers
   members:
-    - name: Shashwat Sahay
-      title: Affiliated postdoc (AG Chapuy)
+    - name: George Gavriilidis
+      github: geogav
+    - name: Shashwat Sahay (affiliated postdoc from AG-Chapuy)
+      github: shashwatsahay
 
 - group: Doctoral researchers
   members:
     - name: Alexander Malt
       github: al3xmlt030
-    - name: Niklas Müller-Bötticher
-      github: niklasmueboe
     - name: Yiheng Jiang
       github: YihengJiang97
     - name: Kaixin Huang
@@ -31,14 +31,27 @@
       github: Dan-Danny-Danniel
     - name: Peiru Du
       github: dpr1212
-    - name: Sunhild Hartmann
-      title: Affiliated PhD (AG Müller/Dechend)
+    - name: Haoxin Wang
+      github: whxgz121
+    - name: Jianpeng Zhang
+      github: LuckyRaphael
 
 - group: Students
   members:
-    - name: Add current students here
+    - name: Timon Last
+      title: M.D. doctoral student, Charité, Germany
+    - name: Eirini Agnanti
+      title: MSc Applied Bioinformatics, Aristotle University of Thessaloniki, Greece
+    - name: Abeer Safi
+      title: Bsc Biomedical Engineering, Yıldız Technical University, Türkiye
+    - name: Hosna Nikoobayan Haydari
+      title: BSc Bioinformatik, Freie Universität Berlin, Germany
+    - name: Ammara Akhtar
+      title: MSc Bioinformatics, Freie Universität Berlin, Germany
 
-- group: Alumni
+- group: Clinician Scientists
   members:
-    - name: Add alumni here
-      title: Optional note, e.g. now postdoc at X
+    - name: Dr.med. Sophy Denker
+      title: Department of Hematology, Oncology and Cancer Immunology, Charité, Germany
+    - name: Dr. med. univ. Olivia Nonn
+      title: Department of Obstetrics, Charité, Germany
