@@ -19,19 +19,6 @@ We develop computational methods to understand biological heterogeneity in disea
 All tools are open source and available on <a href="{{ site.github_org }}">GitHub</a>.
 
 <table>
-  <thead><tr><th>Tool</th><th>What it does</th><th>Links</th></tr></thead>
-  <tbody>
-  {% for s in site.data.software %}
-    <tr>
-      <td>{{ s.name }}</td>
-      <td>{{ s.summary }}{% if s.venue != "" %}<br><small>{{ s.venue }}</small>{% endif %}</td>
-      <td>{% if s.repo != "" %}<a href="{{ s.repo }}">Code</a>{% endif %}{% if s.doi != "" %} <a href="https://doi.org/{{ s.doi }}">Paper</a>{% endif %}</td>
-    </tr>
-  {% endfor %}
-  </tbody>
-</table>
-
-<table>
   <thead><tr><th>Tool</th><th>What it does</th><th>Code</th><th>Publication</th></tr></thead>
   <tbody>
   {% for s in site.data.software %}
@@ -47,4 +34,4 @@ All tools are open source and available on <a href="{{ site.github_org }}">GitHu
 
 ## Community
 
-We contribute to open benchmarking through <a href="https://openproblems.bio">openproblems.bio</a> and organise the SpaceHack hackathon series on spatial 'omics analysis.
+We are actively involved in [ELIXIR](https://elixir-europe.org/), [ELIXIR-Germany](https://elixir-europe.org/about-us/who-we-are/nodes/germany)/[de.NBI](https://www.denbi.de/) and coordinate the [SpaceHack](https://spatialhackathon.github.io/) hackathon serie.
