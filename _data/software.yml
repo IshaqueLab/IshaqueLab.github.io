@@ -1,26 +1,48 @@
-# Add repo/doi once transferred to IshaqueLab. Order is display order.
+# Displayed in this order on /research/. Leave doi/citation empty ("") if unpublished.
 - name: SSAM
   summary: Segmentation-free cell-type mapping for imaging-based spatial transcriptomics.
-  repo: ""
-  doi: ""
-  venue: ""
-- name: sainsc
-  summary: Segmentation-free spatial analysis designed for very large imaging-based datasets.
-  repo: ""
-  doi: ""
-  venue: ""
+  repo: https://github.com/HiDiHlabs/ssam
+  citation: Park et al., Nature Communications (2021)
+  doi: 10.1038/s41467-021-23807-4
+
+- name: SSAM-lite
+  summary: Lightweight SSAM implementation that runs in the browser.
+  repo: https://github.com/HiDiHlabs/ssam-lite
+  citation: Tiesmeyer et al., Frontiers in Genetics (2022)
+  doi: 10.3389/fgene.2022.785877
+
+- name: Sainsc
+  summary: Segmentation-free spatial analysis at scale for sequencing- and imaging-based spatial transcriptomics.
+  repo: https://github.com/HiDiHlabs/sainsc
+  citation: Müller-Bötticher et al., Small Methods (2025)
+  doi: 10.1002/smtd.202401123
+
 - name: SpatialLeiden
-  summary: Spatially-aware clustering through multiplex modularity optimisation.
-  repo: ""
-  doi: ""
-  venue: Genome Biology, 2025
+  summary: Spatially-aware clustering via multiplex modularity optimisation.
+  repo: https://github.com/HiDiHlabs/SpatialLeiden
+  citation: Müller-Bötticher et al., Genome Biology (2025)
+  doi: 10.1186/s13059-025-03489-7
+
+- name: multiSPAETI
+  summary: Dimensionality reduction that maximises the product of variance and Moran's I.
+  repo: https://github.com/HiDiHlabs/multiSPAETI
+  citation: Müller-Bötticher et al., Genome Biology (2025)
+  doi: 10.1186/s13059-025-03489-7
+
 - name: ovrlpy
-  summary: Detects cell overlap and vertical signal integrity in imaging-based SRT.
-  repo: ""
+  summary: Detection of cell overlap and vertical signal integrity in imaging-based SRT.
+  repo: https://github.com/HiDiHlabs/ovrl.py
+  citation: Tiesmeyer et al., Nature Biotechnology (2026)
+  doi: 10.1038/s41587-026-03004-8
+
+- name: clrmappy
+  summary: Automatically colours high-dimensional data using dimensionality reduction.
+  repo: https://github.com/HiDiHlabs/clrmappy
+  citation: ""
   doi: ""
-  venue: Nature Biotechnology, 2026
-- name: spoQC
-  summary: Modular framework for multimodal quality control of imaging-based SRT.
-  repo: ""
-  doi: ""
-  venue: ""
+
+- name: SACCELERATOR
+  summary: Framework to run and compare spatial clustering tools.
+  repo: https://github.com/SpatialHackathon/SACCELERATOR
+  citation: Sun et al., Nature Methods (2026)
+  doi: 10.1038/s41592-026-03194-8
