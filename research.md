@@ -16,7 +16,7 @@ We develop computational methods to understand biological heterogeneity in disea
 
 ## Software
 
-All tools are open source and available on <a href="{{ site.github_org }}">GitHub</a>.
+These software are an approved de.NBI service (the [SpatialTanscriptomicsToolbox](https://www.surveymonkey.de/r/denbi-service?sc=hd-hub&tool=spatialtranscriptomicstoolbox)). [Please help us improve by taking our short user survey](https://www.surveymonkey.de/r/denbi-service?sc=hd-hub&tool=spatialtranscriptomicstoolbox).
 
 <table>
   <thead><tr><th>Tool</th><th>What it does</th><th>Code</th><th>Publication</th></tr></thead>
@@ -31,6 +31,8 @@ All tools are open source and available on <a href="{{ site.github_org }}">GitHu
   {% endfor %}
   </tbody>
 </table>
+
+These software are an approved de.NBI service (the [SpatialTanscriptomicsToolbox](https://www.surveymonkey.de/r/denbi-service?sc=hd-hub&tool=spatialtranscriptomicstoolbox)). [Please help us improve by taking our short user survey](https://www.surveymonkey.de/r/denbi-service?sc=hd-hub&tool=spatialtranscriptomicstoolbox).
 
 ## Community
 
