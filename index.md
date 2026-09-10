@@ -4,7 +4,7 @@ title: null
 ---
 <div class="hero">
   <div>
-    <h1>Computational methods for spatial and single-cell 'omics in human disease</h1>
+    <h1>Computational methods for spatial and single-cell 'omics</h1>
     <p class="lead">We are the research group of Naveed Ishaque, Professor of Cancer Bioinformatics at Charité - Universitätsmedizin Berlin and the BIH Center of Digital Health.</p>
     <p>We study biological heterogeneity in disease by developing computational methods for 'omics data. Our focus is oncology, with active interests in immunology, neurodegeneration and metabolic disease. We build open-source tools for spatially resolved transcriptomics, integrate molecular layers to resolve tumour and microenvironment heterogeneity, and work closely with experimental and clinical collaborators who generate the datasets that make this possible.</p>
     <div class="actions">
