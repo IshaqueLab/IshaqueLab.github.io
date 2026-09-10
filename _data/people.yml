@@ -15,31 +15,39 @@
   members:
     - name: George Gavriilidis
       github: geogav
-    - name: Shashwat Sahay (affiliated postdoc from AG-Chapuy)
-      github: shashwatsahay
+      photo: /assets/img/people/george.jpg
 
 - group: Doctoral researchers
   members:
     - name: Alexander Malt
       github: al3xmlt030
+      photo: /assets/img/people/alex.jpg
     - name: Yiheng Jiang
       github: YihengJiang97
+      photo: /assets/img/people/yiheng.jpg
     - name: Kaixin Huang
+      photo: /assets/img/people/kaixin.jpg
     - name: Yizhen Xiang
       github: Erlang9783
+      photo: /assets/img/people/yizhen.jpg
     - name: Fei Wang
       github: Dan-Danny-Danniel
+      photo: /assets/img/people/fei.jpg
     - name: Peiru Du
       github: dpr1212
+      photo: /assets/img/people/peiru.jpg
     - name: Haoxin Wang
       github: whxgz121
+      photo: /assets/img/people/haoxin.jpg
     - name: Jianpeng Zhang
       github: LuckyRaphael
+      photo: /assets/img/people/jianpeng.jpg
 
 - group: Students
   members:
     - name: Timon Last
       title: M.D. doctoral student, Charité, Germany
+      photo: /assets/img/people/timon.jpg
     - name: Eirini Agnanti
       title: MSc Applied Bioinformatics, Aristotle University of Thessaloniki, Greece
     - name: Abeer Safi
@@ -53,5 +61,7 @@
   members:
     - name: Dr.med. Sophy Denker
       title: Department of Hematology, Oncology and Cancer Immunology, Charité, Germany
+      photo: /assets/img/people/sophy.jpg
     - name: Dr. med. univ. Olivia Nonn
       title: Department of Obstetrics, Charité, Germany
+      photo: /assets/img/people/olivia.jpg
