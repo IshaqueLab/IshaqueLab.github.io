@@ -1,7 +1,7 @@
 - name: Spatially resolved transcriptomics
   summary: Methods for imaging-based SRT that do not depend on cell segmentation, together with spatially-aware clustering, quality control and benchmarking.
 - name: Single-cell and multi-omics integration
-  summary: Linking molecular layers to resolve tumour and microenvironment heterogeneity, with a current focus on bladder cancer and the tumour immune microenvironment.
+  summary: Linking molecular layers to resolve tumour and microenvironment heterogeneity, with a current focus on how the tumour immune microenvironment affects therapy response and survival.
 - name: AI for histology
   summary: Predicting molecular readouts and immune states from routine H&E images using matched spatial transcriptomics as ground truth.
 - name: Community building and engagement
