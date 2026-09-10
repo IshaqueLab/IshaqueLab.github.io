@@ -1,0 +1,18 @@
+title: Ishaque Lab
+tagline: Computational methods for spatial and single-cell 'omics in cancer
+description: Research group of Naveed Ishaque, Professor of Cancer Bioinformatics at Charité - Universitätsmedizin Berlin and the BIH Center of Digital Health.
+url: "https://ishaquelab.github.io"
+baseurl: ""
+lang: en-GB
+
+# Identifiers used across the site
+orcid: 0000-0002-8426-901X
+scholar: "https://scholar.google.de/citations?hl=en&user=XW9GmMoAAAAJ&view_op=list_works&sortby=pubdate"
+github_org: "https://github.com/IshaqueLab"
+email: naveed.ishaque@bih-charite.de
+# OpenAlex polite-pool contact (any email; speeds up API responses)
+openalex_mailto: naveed.ishaque@bih-charite.de
+
+markdown: kramdown
+permalink: pretty
+exclude: [README.md, Gemfile, Gemfile.lock, vendor]

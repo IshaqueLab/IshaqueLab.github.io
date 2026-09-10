@@ -1,0 +1,44 @@
+# One entry per person. Delete keys you do not have; the template skips empty ones.
+# Groups render in the order below. Names from the old website are placeholders
+# and MUST be checked against hidih.org before publishing.
+- group: Group leader
+  members:
+    - name: Naveed Ishaque
+      title: Professor of Cancer Bioinformatics
+      orcid: 0000-0002-8426-901X
+      github: naveedishaque
+      scholar: XW9GmMoAAAAJ
+      email: naveed.ishaque@bih-charite.de
+      photo: /assets/img/people/naveed.jpg
+
+- group: Postdoctoral researchers
+  members:
+    - name: Shashwat Sahay
+      title: Affiliated postdoc (AG Chapuy)
+
+- group: Doctoral researchers
+  members:
+    - name: Alexander Malt
+      github: al3xmlt030
+    - name: Niklas Müller-Bötticher
+      github: niklasmueboe
+    - name: Yiheng Jiang
+      github: YihengJiang97
+    - name: Kaixin Huang
+    - name: Yizhen Xiang
+      github: Erlang9783
+    - name: Fei Wang
+      github: Dan-Danny-Danniel
+    - name: Peiru Du
+      github: dpr1212
+    - name: Sunhild Hartmann
+      title: Affiliated PhD (AG Müller/Dechend)
+
+- group: Students
+  members:
+    - name: Add current students here
+
+- group: Alumni
+  members:
+    - name: Add alumni here
+      title: Optional note, e.g. now postdoc at X

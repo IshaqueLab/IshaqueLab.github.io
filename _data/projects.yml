@@ -1,0 +1,8 @@
+- name: Spatially resolved transcriptomics
+  summary: Methods for imaging-based SRT that do not depend on cell segmentation, together with spatially-aware clustering, quality control and benchmarking.
+- name: Single-cell and multi-omics integration
+  summary: Linking molecular layers to resolve tumour and microenvironment heterogeneity, with a current focus on bladder cancer and the tumour immune microenvironment.
+- name: AI for histology
+  summary: Predicting molecular readouts and immune states from routine H&E images using matched spatial transcriptomics as ground truth.
+- name: Community benchmarking and standards
+  summary: Open benchmarking through openproblems.bio, the SpaceHack hackathon series and FAIR data standards for spatial 'omics.

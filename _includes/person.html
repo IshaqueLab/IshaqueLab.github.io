@@ -1,0 +1,17 @@
+<li class="person">
+  {% if include.p.photo %}
+    <img class="person-photo" src="{{ include.p.photo | relative_url }}" alt="" loading="lazy" width="72" height="72">
+  {% else %}
+    <span class="person-photo person-initial" aria-hidden="true">{{ include.p.name | slice: 0 }}</span>
+  {% endif %}
+  <div>
+    <span class="person-name">{{ include.p.name }}</span>
+    {% if include.p.title %}<span class="person-title">{{ include.p.title }}</span>{% endif %}
+    <span class="person-links">
+      {% if include.p.orcid %}<a href="https://orcid.org/{{ include.p.orcid }}">ORCID</a>{% endif %}
+      {% if include.p.github %}<a href="https://github.com/{{ include.p.github }}">GitHub</a>{% endif %}
+      {% if include.p.scholar %}<a href="https://scholar.google.com/citations?user={{ include.p.scholar }}">Scholar</a>{% endif %}
+      {% if include.p.email %}<a href="mailto:{{ include.p.email }}">Email</a>{% endif %}
+    </span>
+  </div>
+</li>

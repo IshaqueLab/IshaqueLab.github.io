@@ -1,0 +1,115 @@
+/* Ishaque Lab — palette taken from the lab logo */
+:root {
+  --navy: #0B335D;
+  --mid: #2A5A82;
+  --light: #4F86AB;
+  --pale: #6BAACB;
+  --wash: #EEF3F8;   /* cool tint of the pale blue, for panels */
+  --rule: #D5E1EC;
+  --ink: #1B2733;
+  --ink-2: #4A5966;
+  --bg: #FFFFFF;
+  --font: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --measure: 68ch;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { font-size: 100%; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  color: var(--ink);
+  background: var(--bg);
+}
+
+.container { width: min(1080px, 100% - 3rem); margin-inline: auto; }
+
+a { color: var(--mid); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--navy); }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--pale); outline-offset: 3px; }
+
+.skip { position: absolute; left: -999px; top: 0; background: var(--navy); color: #fff; padding: .5rem 1rem; }
+.skip:focus { left: 1rem; z-index: 10; }
+
+h1, h2, h3 { color: var(--navy); line-height: 1.2; font-weight: 600; letter-spacing: -0.01em; }
+h1 { font-size: clamp(1.9rem, 1.2rem + 2.2vw, 2.75rem); margin: 0 0 .75rem; }
+h2 { font-size: 1.5rem; margin: 2.75rem 0 .75rem; }
+h3 { font-size: 1.125rem; margin: 1.5rem 0 .25rem; }
+p, ul, ol { max-width: var(--measure); }
+main > p:first-of-type, .lead { font-size: 1.2rem; color: var(--ink-2); }
+
+/* Header */
+.site-header { border-bottom: 4px solid var(--navy); background: var(--bg); }
+.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 2rem; padding: 1rem 0; flex-wrap: wrap; }
+.brand img { display: block; height: 64px; width: auto; }
+.site-nav { display: flex; gap: .25rem 1.25rem; flex-wrap: wrap; }
+.site-nav a { color: var(--ink); text-decoration: none; padding: .5rem 0; border-bottom: 3px solid transparent; font-weight: 500; }
+.site-nav a:hover { color: var(--mid); }
+.site-nav a[aria-current="page"] { color: var(--navy); border-bottom-color: var(--light); }
+
+main { padding: 2.5rem 0 4rem; }
+
+/* Home */
+.hero { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 3rem; align-items: start; margin-bottom: 3rem; }
+.hero-side { background: var(--wash); border-left: 4px solid var(--light); padding: 1.25rem 1.5rem; font-size: .95rem; }
+.hero-side p { margin: 0 0 .5rem; }
+.hero-side ul { list-style: none; padding: 0; margin: 0; }
+.hero-side li { padding: .15rem 0; }
+@media (max-width: 800px) { .hero { grid-template-columns: 1fr; } }
+
+.button { display: inline-block; background: var(--navy); color: #fff; text-decoration: none; padding: .6rem 1.1rem; font-weight: 500; border-radius: 3px; }
+.button:hover { background: var(--mid); color: #fff; }
+.button.secondary { background: transparent; color: var(--navy); border: 2px solid var(--navy); }
+.button.secondary:hover { background: var(--wash); }
+.actions { display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 1.5rem; }
+
+/* Research areas: a two-column grid, ruled not carded */
+.areas { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0 3rem; padding: 0; margin: 0; list-style: none; }
+.areas li { border-top: 2px solid var(--rule); padding: 1rem 0 1.25rem; }
+.areas h3 { margin-top: 0; }
+.areas p { margin: .35rem 0 0; color: var(--ink-2); font-size: .98rem; }
+
+/* Software table */
+table { border-collapse: collapse; width: 100%; font-size: .98rem; }
+th, td { text-align: left; padding: .7rem .75rem .7rem 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { color: var(--navy); font-weight: 600; border-bottom: 2px solid var(--navy); }
+td:first-child { font-weight: 600; white-space: nowrap; }
+
+/* Publications */
+.pubs { list-style: none; padding: 0; margin: 0; max-width: 80ch; }
+.pubs li { padding: 1rem 0; border-bottom: 1px solid var(--rule); }
+.pub-title { font-weight: 600; color: var(--navy); }
+.pub-title a { color: inherit; text-decoration: none; }
+.pub-title a:hover { text-decoration: underline; }
+.pub-meta { display: block; color: var(--ink-2); font-size: .95rem; margin-top: .2rem; }
+.pub-authors { display: block; color: var(--ink-2); font-size: .92rem; margin-top: .15rem; }
+.pubs-status { color: var(--ink-2); font-size: .95rem; }
+.pubs-controls { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; margin: 1rem 0 .5rem; font-size: .95rem; }
+.pubs-controls label { display: inline-flex; gap: .4rem; align-items: center; }
+
+/* People */
+.people-group { margin-top: 2rem; }
+.people { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1rem 2rem; }
+.person { display: flex; gap: 1rem; align-items: flex-start; padding: .75rem 0; border-top: 1px solid var(--rule); }
+.person-photo { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; flex: none; }
+.person-initial { display: grid; place-items: center; background: var(--wash); color: var(--mid); font-weight: 600; font-size: 1.5rem; }
+.person-name { display: block; font-weight: 600; color: var(--navy); }
+.person-title { display: block; color: var(--ink-2); font-size: .95rem; }
+.person-links { display: block; font-size: .9rem; margin-top: .2rem; }
+.person-links a { margin-right: .75rem; }
+
+/* Contact */
+.contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
+.map { width: 100%; aspect-ratio: 4 / 3; border: 0; border-top: 4px solid var(--navy); }
+
+/* Footer */
+.site-footer { background: var(--navy); color: #DCE7F1; margin-top: 2rem; font-size: .95rem; }
+.site-footer a { color: #fff; }
+.footer-inner { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; padding: 2.5rem 0 1rem; }
+.footer-inner p { margin: 0; line-height: 1.7; }
+.footer-meta { padding: 0 0 1.5rem; color: var(--pale); font-size: .85rem; }
+.footer-meta a { color: var(--pale); }

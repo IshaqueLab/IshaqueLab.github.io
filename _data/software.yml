@@ -1,0 +1,26 @@
+# Add repo/doi once transferred to IshaqueLab. Order is display order.
+- name: SSAM
+  summary: Segmentation-free cell-type mapping for imaging-based spatial transcriptomics.
+  repo: ""
+  doi: ""
+  venue: ""
+- name: sainsc
+  summary: Segmentation-free spatial analysis designed for very large imaging-based datasets.
+  repo: ""
+  doi: ""
+  venue: ""
+- name: SpatialLeiden
+  summary: Spatially-aware clustering through multiplex modularity optimisation.
+  repo: ""
+  doi: ""
+  venue: Genome Biology, 2025
+- name: ovrlpy
+  summary: Detects cell overlap and vertical signal integrity in imaging-based SRT.
+  repo: ""
+  doi: ""
+  venue: Nature Biotechnology, 2026
+- name: spoQC
+  summary: Modular framework for multimodal quality control of imaging-based SRT.
+  repo: ""
+  doi: ""
+  venue: ""
