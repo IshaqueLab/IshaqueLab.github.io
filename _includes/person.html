@@ -8,10 +8,10 @@
     <span class="person-name">{{ include.p.name }}</span>
     {% if include.p.title %}<span class="person-title">{{ include.p.title }}</span>{% endif %}
     <span class="person-links">
-      {% if include.p.orcid %}<a href="https://orcid.org/{{ include.p.orcid }}">ORCID</a>{% endif %}
-      {% if include.p.github %}<a href="https://github.com/{{ include.p.github }}">GitHub</a>{% endif %}
-      {% if include.p.scholar %}<a href="https://scholar.google.com/citations?user={{ include.p.scholar }}">Scholar</a>{% endif %}
-      {% if include.p.email %}<a href="mailto:{{ include.p.email }}">Email</a>{% endif %}
+      {% if include.p.email %}<a href="mailto:{{ include.p.email }}" title="Email"><img src="{{ '/assets/img/mail-navy.svg' | relative_url }}" alt="Email" width="18" height="18"></a>{% endif %}
+      {% if include.p.github %}<a href="https://github.com/{{ include.p.github }}" title="GitHub"><img src="{{ '/assets/img/github-navy.svg' | relative_url }}" alt="GitHub" width="18" height="18"></a>{% endif %}
+      {% if include.p.scholar %}<a href="https://scholar.google.com/citations?user={{ include.p.scholar }}" title="Google Scholar"><img src="{{ '/assets/img/scholar-navy.svg' | relative_url }}" alt="Google Scholar" width="18" height="18"></a>{% endif %}
+      {% if include.p.orcid %}<a href="https://orcid.org/{{ include.p.orcid }}" title="ORCID"><img src="{{ '/assets/img/orcid-navy.svg' | relative_url }}" alt="ORCID" width="18" height="18"></a>{% endif %}
     </span>
   </div>
 </li>
