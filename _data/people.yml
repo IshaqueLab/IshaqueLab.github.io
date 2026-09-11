@@ -14,6 +14,7 @@
 - group: Postdoctoral researchers
   members:
     - name: George Gavriilidis
+      title: ELIXIR Single-Cell Omics Community co-lead; MASLD; in-silico perturbation modelling
       github: geogav
       scholar: oAUPMa8AAAAJ
       email: georgios.gavriilidis@charite.de
@@ -22,6 +23,7 @@
 - group: Doctoral researchers
   members:
     - name: Alexander Malt
+      title: MOSAIC lead bioinformatician
       github: al3xmlt030
       email: alexander.malt@bih-charite.de
       photo: /assets/img/people/alex.jpg
