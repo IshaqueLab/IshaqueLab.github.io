@@ -2,7 +2,7 @@
 - name: Berlin Institute of Health at Charité
   url: https://www.bihealth.org
   img: /assets/img/bih-logo.png
-  height: 40
+  height: 30
 - name: Charité - Universitätsmedizin Berlin
   url: https://www.charite.de
   img: /assets/img/charite-logo.png
@@ -10,11 +10,11 @@
 - name: HiDiH
   url: https://www.hidih.org
   img: /assets/img/hidih-logo.png
-  height: 40
+  height: 50
 - name: de.NBI - German Network for Bioinformatics Infrastructure
   url: https://www.denbi.de
   img: /assets/img/denbi-logo.png
-  height: 40
+  height: 30
 - name: ELIXIR Germany
   url: https://www.denbi.de/elixir-germany
   img: /assets/img/elixir-germany-logo.png
