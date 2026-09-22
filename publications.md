@@ -12,6 +12,12 @@ title: Publications
     <span class="pub-title">{% if p.doi contains "verify" %}{{ p.title }}{% else %}<a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% endif %}</span>
     <span class="pub-meta">{{ p.citation }}</span>
     <span class="pub-why">{{ p.why }}</span>
+    {% unless p.doi contains "verify" %}
+    <span class="metrics" data-metrics data-doi="{{ p.doi }}"
+          data-bip="{{ site.metrics.publications.bip | default: false }}"
+          data-altmetric="{{ site.metrics.publications.altmetric | default: false }}"
+          data-dimensions="{{ site.metrics.publications.dimensions | default: false }}"></span>
+    {% endunless %}
   </li>
 {% endfor %}
 </ul>
@@ -25,3 +31,4 @@ Listed from <a href="https://openalex.org">OpenAlex</a> using ORCID <a href="htt
 </div>
 
 <script src="{{ '/assets/js/publications.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/metrics.js' | relative_url }}" data-bip-logo="{{ '/assets/img/bip_white.png' | relative_url }}" defer></script>
