@@ -8,6 +8,7 @@
       repo: https://github.com/HiDiHlabs/ssam
       docs: https://ssam.readthedocs.io
       doi: 10.1038/s41467-021-23807-4
+      biotools: ssam
       pypi: ssam
       license: AGPL-3.0
     - name: SSAM-lite
@@ -15,12 +16,14 @@
       repo: https://github.com/HiDiHlabs/ssam-lite
       docs: https://ssam-lite.readthedocs.io
       doi: 10.3389/fgene.2022.785877
+      biotools: ssam-lite
       license: MIT
     - name: Sainsc
       summary: Segmentation-free spatial analysis at scale for sequencing- and imaging-based spatial transcriptomics. Müller-Bötticher et al., Small Methods (2025).
       repo: https://github.com/HiDiHlabs/sainsc
       docs: https://sainsc.readthedocs.io
       doi: 10.1002/smtd.202401123
+      biotools: sainsc
       pypi: sainsc
       bioconda: sainsc
       license: MIT
@@ -29,6 +32,7 @@
       repo: https://github.com/HiDiHlabs/SpatialLeiden
       docs: https://spatialleiden.readthedocs.io
       doi: 10.1186/s13059-025-03489-7
+      biotools: spatialleiden
       pypi: spatialleiden
       bioconda: spatialleiden
       license: GPL-3.0
@@ -36,6 +40,7 @@
       summary: Dimensionality reduction that maximises the product of variance and Moran's I. Müller-Bötticher et al., Genome Biology (2025).
       repo: https://github.com/HiDiHlabs/multiSPAETI
       doi: 10.1186/s13059-025-03489-7
+      biotools: multispaeti
       pypi: multispaeti
       bioconda: multispaeti
       license: MIT
@@ -44,18 +49,21 @@
       repo: https://github.com/HiDiHlabs/ovrl.py
       docs: https://ovrlpy.readthedocs.io
       doi: 10.1038/s41587-026-03004-8
+      biotools: ovrlpy
       pypi: ovrlpy
       bioconda: ovrlpy
       license: MIT
     - name: clrmappy
       summary: Automatically colours high-dimensional data using dimensionality reduction.
       repo: https://github.com/HiDiHlabs/clrmappy
+      biotools: clrmappy
       license: MIT
     - name: SACCELERATOR
       summary: Framework to run and compare spatial clustering tools. Sun et al., Nature Methods (2026).
       repo: https://github.com/SpatialHackathon/SACCELERATOR
       docs: https://spatialhackathon.github.io/SACCELERATOR/
       doi: 10.1038/s41592-026-03194-8
+      biotools: saccelerator
       license: MIT-0
 
 - group: Tools we contribute to
@@ -63,5 +71,6 @@
     - name: Spatial2Galaxy
       summary: Galaxy platform for reproducible spatial transcriptomics processing (ELIXIR).
       repo: https://workflowhub.eu/workflows/2174
+      biotools: spatial2galaxy
       docs: https://galaxyproject.org/bare/eu/usegalaxy/spatialomics/
 
