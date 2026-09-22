@@ -177,6 +177,8 @@ td:first-child { font-weight: 600; white-space: nowrap; }
 .bip-C3 { border-color: var(--mid); color: var(--mid); }
 .bip-C4 { border-color: var(--light); color: var(--light); }
 .metric-value { color: var(--ink-2); }
-.altmetric-embed, .__dimensions_badge_embed__ { display: inline-block; vertical-align: middle; }
-.altmetric-embed img, .__dimensions_badge_embed__ svg { max-height: 40px; }
+/* Third-party badges are 64px; shrink the box with a transform so their own layout is untouched */
+:root { --badge-scale: .7; }
+.badge-scale { display: inline-block; width: calc(64px * var(--badge-scale)); height: calc(64px * var(--badge-scale)); line-height: 0; }
+.badge-scale > * { transform: scale(var(--badge-scale)); transform-origin: top left; }
  
