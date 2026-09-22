@@ -12,4 +12,10 @@
     {% if include.t.bioconda and include.t.bioconda != "" %}<a href="https://anaconda.org/channels/bioconda/packages/{{ include.t.bioconda }}/overview" title="Install from Bioconda"><img src="{{ '/assets/img/anaconda-grey.svg' | relative_url }}" alt="Bioconda" width="18" height="18"></a>{% endif %}
     {% if include.t.license and include.t.license != "" %}<span class="tool-license" title="Licence">{{ include.t.license }}</span>{% endif %}
   </span>
+  {% if include.t.doi and include.t.doi != "" and site.metrics.software %}
+  <span class="metrics" data-metrics data-doi="{{ include.t.doi }}"
+        data-bip="{{ site.metrics.software.bip | default: false }}"
+        data-altmetric="{{ site.metrics.software.altmetric | default: false }}"
+        data-dimensions="{{ site.metrics.software.dimensions | default: false }}"></span>
+  {% endif %}
 </li>
