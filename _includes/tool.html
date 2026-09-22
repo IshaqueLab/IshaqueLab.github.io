@@ -2,6 +2,7 @@
   <span class="tool-name">{{ include.t.name }}</span>
   <span class="tool-summary">{{ include.t.summary }}</span>
   <span class="tool-links">
+    {% if include.t.biotools and include.t.biotools != "" %}<a href="https://bio.tools/{{ include.t.biotools }}" title="Entry on bio.tools"><img src="{{ '/assets/img/biotools-grey.svg' | relative_url }}" alt="bio.tools" width="18" height="18"></a>{% endif %}
     {% if include.t.repo and include.t.repo != "" %}<a href="{{ include.t.repo }}" title="Source code on GitHub"><img src="{{ '/assets/img/github-grey.svg' | relative_url }}" alt="GitHub" width="18" height="18"></a>{% endif %}
     {% if include.t.docs and include.t.docs != "" %}<a href="{{ include.t.docs }}" title="Documentation"><img src="{{ '/assets/img/readthedocs-grey.svg' | relative_url }}" alt="Documentation" width="18" height="18"></a>{% endif %}
     {% if include.t.doi and include.t.doi != "" %}<a href="https://doi.org/{{ include.t.doi }}" title="Publication"><img src="{{ '/assets/img/doi-grey.svg' | relative_url }}" alt="Publication (DOI)" width="18" height="18"></a>{% endif %}
