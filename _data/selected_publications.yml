@@ -14,12 +14,12 @@
   doi: 10.1186/s13059-025-03489-7
   why: SpatialLeiden and multiSPAETI, spatially-aware clustering and dimensionality reduction that scale to millions of cells.
 
-- citation: Bolduan et al., Scientific Reports (2025)
-  title: Small intestinal neuroendocrine tumors lack early genomic drivers, acquire DNA repair defects and harbor hallmarks of low REST expression
-  doi: 10.1038/s41598-025-01912-4
-  why: Integrated whole-genome and transcriptomic profiling reveals that small intestinal neuroendocrine tumors originate from low-REST enterochromaffin cells without clear recurrent somatic driver mutations, with DNA repair defects driving later progression.
-
-- citation: Nonn et al., Hypertension (2025)
-  title: Senescent Syncytiotrophoblast Secretion During Early Onset Preeclampsia
-  doi: 10.1161/hypertensionaha.124.23362
-  why: Single-nucleus and spatial profiling show that premature syncytiotrophoblast senescence releases SASP markers (PAI-1, activin A, GDF15) into maternal blood weeks before early-onset preeclampsia manifests, serving as early predictive biomarkers.
+- citation: Marco Salas et al., Nature Methods (2025)
+  title: Optimizing Xenium In Situ data utility by quality assessment and best-practice analysis workflows
+  doi: 10.1038/s41592-025-02617-2
+  why: Evaluation of the Xenium spatial transcriptomics platform against eight alternative technologies and benchmarks computational tools for data analysis.
+  
+- citation: Hensel et al., Hypertension (2025)
+  title: Memory-like HCV-specific CD8+ T cells retain a molecular scar after cure of chronic HCV infection
+  doi: 10.1038/s41590-020-00817-w
+  why: HCV cure eliminates terminally exhausted T cells, leaving a persistent exhaustion scar in memory-like subsets.
