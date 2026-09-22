@@ -16,3 +16,13 @@ openalex_mailto: naveed.ishaque@bih-charite.de
 markdown: kramdown
 permalink: pretty
 exclude: [README.md, Gemfile, Gemfile.lock, vendor]
+
+metrics:
+  software:
+    bip: true
+    altmetric: false
+    dimensions: false
+  publications:
+    bip: true
+    altmetric: true
+    dimensions: true
